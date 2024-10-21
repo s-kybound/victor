@@ -1,0 +1,19 @@
+{
+  "varied_parameter": "sample_length",
+  "number_of_signatures": 800,
+  "signature_length": 5000,
+  "n_ratio_signatures": 0.1,
+  "num_no_virus": 2000,
+  "num_with_virus": 20,
+  "min_viruses": 1,
+  "max_viruses": 2,
+  "sample_length": {
+    "range": [100000, 200000],
+    "step": 50000
+  },
+  "min_phred": 10,
+  "max_phred": 30,
+  "n_ratio_samples": 0.1,
+  "output_fasta": "sig.fasta",
+  "output_fastq": "samp.fastq"
+}
